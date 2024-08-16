@@ -1,0 +1,109 @@
+/* src/App.css */
+
+.App {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background: linear-gradient(135deg, rgb(224, 42, 221), #a039e0, #00ffba, #00baff);
+    min-height: 100vh;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .forms, .lists {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .forms > div, .lists > div {
+    width: 45%;
+    background-color: #f3f3f3;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #3a2aa5;
+    color: #fffffffc;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  form div {
+    margin: 10px 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="date"] {
+    padding: 6px;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.875em;
+  }
+  
+  h2 {
+    color: #984caf;
+    margin-bottom: 10px;
+  }
+  
+  .card {
+    background-color: #e3f2fd;
+    border: 1px solid #6b2f1d;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    margin: 0;
+    color: #5092cd;
+  }
+  
+  .card p {
+    margin: 5px 0;
+  }
+  
+  .card button {
+    background-color: #f44336;
+  }
+  
+  .card button:hover {
+    background-color: #e53935;
+  }
+  
